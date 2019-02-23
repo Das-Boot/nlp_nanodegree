@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
-[image1]: ./ vui_capstone_project/images/pipeline.png "ASR Pipeline"
-[image2]: ./ vui_capstone_project/images/loss.png "Loss"
+[image1]: ./asr_capstone_project/images/pipeline.png "ASR Pipeline"
+[image2]: ./asr_capstone_project/images/loss.png "Loss"
 
 # Natural Language Processing Nanodegree Project
 
@@ -13,7 +13,7 @@ It have practical projects in the field of NLP using modern libraries and framew
 ## Setup
 
 ### Install
-- Pomegranate 
+- Pomegranate 0.9.0
 - Python 3
 - NumPy
 - TensorFlow 1.x
@@ -57,10 +57,15 @@ Capstone project of the course with different NLP models and advanced techniques
 #### Models
 
 Model 0: RNN loss: 779.6107 - val_loss: 759.2642
+
 Model 1: RNN + TimeDistributed Dense loss: 143.2519 - val_loss: 150.7867
+
 Model 2: CNN + RNN + TimeDistributed Dense loss: 107.3945 - val_loss: 145.1359
+
 Model 3: Deeper RNN + TimeDistributed Dense loss: 135.6761 - val_loss: 146.6482
+
 Model 4: Bidirectional RNN + TimeDistributed Dense loss: 159.4280 - val_loss: 162.5575
+
 **Final Model**: CNN + MultiHeadSelfAttention + RNN + TimeDistributed Dense loss: 94.9789 - val_loss: 137.3039
 
 ![Loss][image2]
